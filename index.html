@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruitbox</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+    <script
+      src="https://kit.fontawesome.com/e2c7320bec.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <div class="header_topnav">
+          <div class="topnav_info_left">
+            <ul>
+              <li>TRACKING</li>
+              <li>MEMBERSHIP</li>
+            </ul>
+          </div>
+          <div class="topnav_info_right">
+            <ul>
+              <li>
+                <i class="fa fa-globe"></i>
+                About us
+              </li>
+              <li>
+                <i class="fa fa-sharp fa-briefcase"></i>
+                My Account
+              </li>
+              <li><i class="fa fa-sharp fa-heart"></i> Wishlist</li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_bottomnav">
+          <div class="bottomnav_top">
+            <div class="container">
+              <div class="logo">
+                <img src="./assets/logo.png" alt="" />
+              </div>
+              <div class="navdetails">
+                <div class="location">
+                    <div class="location_icon"><i class="fa fa-sharp fa-solid fa-location-pin"></i></div>
+                    <div class="location_details">
+                        <span>Bangalore</span>
+                        <span>Kumarswamy Layout</span>
+                    </div>
+                </div>
+                <!-- <span>Banglore </span><br>
+                <span>Kumarswamy Layout</span> -->
+
+                <div class="searchbar">
+                  <input type="text" placeholder="Search Products" />
+                  <i class="fa fa-magnifying-glass"></i>
+                </div>
+                <div class="user">
+                    <span class="user_icon"><i class="fa fa-light fa-user"></i></span>
+                    <span>Login</span>
+                </div>
+                <div class="cart">
+                    <div class="cart_icon"><i class="fa fa-light fa-cart-shopping"></i></div>
+                    <div class="cart_details">
+                        <span>My Cart</span>
+                        <span>Rs 100.00</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottomnav_bottom">
+            <div class="megaphone">
+                <i class="fa fa-light fa-bullhorn"></i>
+                <div>
+                <span>Deal of </span><br><span>the day</span>
+            </div>
+            </div>
+            <div class="menu">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-house"></i>
+                  <p>home</p>
+                </li>
+                <li>
+                  <img src="./assets/fruitsic.png" alt="" />
+                  <p>Fresh fruits</p>
+                </li>
+                <li>
+                  <img src="./assets/dryfru1.png" alt="" />
+                  <p>Dry fruits</p>
+                </li>
+                <li>
+                  <img src="./assets/dryfru1.png" alt="" />
+                  <p>Combo</p>
+                </li>
+                <li>
+                  <img src="./assets/giftd.png" alt="" />
+                  <p>Gifting</p>
+                </li>
+                <li>
+                  <img src="./assets/extfruit.png" alt="" />
+                  <p>Exotic fruits</p>
+                </li>
+                <li>
+                  <img src="./assets/seafruit.png" alt="" />
+                  <p>Seasonal fruit</p>
+                </li>
+                <li>
+                  <img src="./assets/c-5.png" alt="" />
+                  <p>Super saver pack</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <!-- <div class="banner"> -->
+          <img class="slide active" src="./assets/banner1.jpg" alt="banner" />
+          <img class="slide" src="./assets/banner2.jpg" alt="banner" />
+          <img class="slide" src="./assets/banner3.jpg" alt="banner" />
+        <!-- </div> -->
+      </div>
+      <section class="section_delivery">
+        <div class="container">
+          <div class="horizontal"><hr /></div>
+          <div class="delivery_message">Delivery within 24hr To 48hrs</div>
+          <div class="horizontal"><hr /></div>
+        </div>
+      </section>
+      <section class="section_reference">
+        <div class="img_cont"><img src="./assets/off1.jpg" alt="off1" /></div>
+        <div class="img_cont"><img src="./assets/off2.jpg" alt="off2" /></div>
+        <div class="img_cont"><img src="./assets/off3.jpg" alt="off3" /></div>
+      </section>
+      <section class="bestSeller_container">
+        <div class="bestSeller_heading">
+          <div class="horizontal"><hr /></div>
+          <div class="heading">Best Sellers</div>
+          <div class="horizontal"><hr /></div>
+        </div>
+        <div class="bestSeller_menu">
+          <ul>
+            <li>
+              <img src="./assets/mango.jpg" alt="mango" />
+              <div class="name"><span>Mango</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/2.png" alt="mango" />
+              <div class="name"><span>Gauva</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/pomo.png" alt="mango" />
+              <div class="name"><span>Pomogranite</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/strawberry.png" alt="mango" />
+              <div class="name"><span>Strawberry</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="viewmore_btn">
+          <button>View More <i class="fa fa-light fa-arrow-right"></i></button>
+        </div>
+      </section>
+      <section class="bestSeller_container">
+        <div class="bestSeller_heading">
+          <div class="horizontal"><hr /></div>
+          <div class="heading">Fresh Fruits</div>
+          <div class="horizontal"><hr /></div>
+        </div>
+        <div class="bestSeller_menu">
+          <ul>
+            <li>
+              <img src="./assets/mango.jpg" alt="mango" />
+              <div class="name"><span>Mango</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/2.png" alt="mango" />
+              <div class="name"><span>Gauva</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/pomo.png" alt="mango" />
+              <div class="name"><span>Pomogranite</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/strawberry.png" alt="mango" />
+              <div class="name"><span>Strawberry</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="viewmore_btn">
+          <button>View More <i class="fa fa-light fa-arrow-right"></i></button>
+        </div>
+      </section>
+      <section class="sales">
+        <div>
+          <img src="./assets//ad.jpg" alt="add1" />
+        </div>
+        <div class="flash_sale">
+          <span class="sale_title">Flash Sale</span><br />
+          <span class="sale_end">Ends in 01:01:16</span>
+        </div>
+        <div><img src="./assets/ad1.jpg" alt="add2" /></div>
+      </section>
+      <section class="bestSeller_container">
+        <div class="bestSeller_heading">
+          <div class="horizontal"><hr /></div>
+          <div class="heading">Fresh Fruits</div>
+          <div class="horizontal"><hr /></div>
+        </div>
+        <div class="bestSeller_menu">
+          <ul>
+            <li>
+              <img src="./assets/cashews.jpg" alt="mango" />
+              <div class="name"><span>cashews</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/almond.jpg" alt="mango" />
+              <div class="name"><span>Almond</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/pista.jpg" alt="mango" />
+              <div class="name"><span>Pista</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/raisins.jpg" alt="mango" />
+              <div class="name"><span>Raisins</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="viewmore_btn">
+          <button>View More <i class="fa fa-light fa-arrow-right"></i></button>
+        </div>
+      </section>
+      <section class="gift">
+        <img src="./assets/gift.jpg" alt="" />
+      </section>
+      <section class="explore">
+        <div class="bestSeller_heading">
+          <div class="horizontal"><hr /></div>
+          <div class="heading">Explore By Category</div>
+          <div class="horizontal"><hr /></div>
+        </div>
+        <ul>
+          <li>
+            <img src="./assets/p1.jpg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+          <li>
+            <img src="./assets/p2.jpg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+          <li>
+            <img src="./assets/p3.jpg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+          <li>
+            <img src="./assets/dry1.jpeg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+          <li>
+            <img src="./assets/dry1.jpeg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+          <li>
+            <img src="./assets/dry1.jpeg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+          <li>
+            <img src="./assets/dry1.jpeg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+          <li>
+            <img src="./assets/dry1.jpeg" alt="dryFruit" />
+            <p>Fresh Fruits</p>
+          </li>
+        </ul>
+      </section>
+      <section class="bestSeller_container">
+        <div class="bestSeller_heading">
+          <div class="horizontal"><hr /></div>
+          <div class="heading">Combo's</div>
+          <div class="horizontal"><hr /></div>
+        </div>
+        <div class="bestSeller_menu">
+          <ul>
+            <li>
+              <img src="./assets/cashews.jpg" alt="mango" />
+              <div class="name"><span>Gifting</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/almond.jpg" alt="mango" />
+              <div class="name"><span>Almond</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/pista.jpg" alt="mango" />
+              <div class="name"><span>Pista</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/raisins.jpg" alt="mango" />
+              <div class="name"><span>Raisins</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="viewmore_btn">
+          <button>View More <i class="fa fa-light fa-arrow-right"></i></button>
+        </div>
+      </section>
+      <section class="bestSeller_container">
+        <div class="bestSeller_heading">
+          <div class="horizontal"><hr /></div>
+          <div class="heading">Gifting</div>
+          <div class="horizontal"><hr /></div>
+        </div>
+        <div class="bestSeller_menu">
+          <ul>
+            <li>
+              <img src="./assets/cashews.jpg" alt="mango" />
+              <div class="name"><span>cashews</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/almond.jpg" alt="mango" />
+              <div class="name"><span>Almond</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/pista.jpg" alt="mango" />
+              <div class="name"><span>Pista</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <img src="./assets/raisins.jpg" alt="mango" />
+              <div class="name"><span>Raisins</span></div>
+              <div class="price">
+                <span
+                  ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                  >72.47/500 Gm</span
+                >
+              </div>
+              <div class="absolute_price">
+                <s
+                  ><span
+                    ><i class="fa fa-sharp fa-light fa-indian-rupee-sign"></i
+                    >112.10</span
+                  ></s
+                >
+              </div>
+              <div class="addTo_cart">
+                <div class="icon_cont"><i class="fa-regular fa-eye"></i></div>
+                <button>Add to Cart</button>
+                <div class="icon_cont">
+                  <i class="fa-sharp fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="viewmore_btn">
+          <button>View More <i class="fa fa-light fa-arrow-right"></i></button>
+        </div>
+      </section>
+      <section class="exotic_container">
+        <div class="exotic">
+          <img src="./assets/exotic.jpg" alt="exotic" />
+        </div>
+      </section>
+    </div>
+    <section>Iam section 12</section>
+    <section class="bestSeller_container">
+      <div class="bestSeller_heading">
+        <div class="blog_heading">Our Blog</div>
+      </div>
+      <div class="blog_menu">
+        <ul>
+          <li>
+            <img src="./assets/blogmain.jpg" alt="mango" />
+            <div class="blog_name">Blog</div>
+            <div class="blog_title">
+                Blog Title 1
+            </div>
+            <div class="blog_disc">
+                <span>simply dummy text of the</span><br> <span>printing and typesetting industry.</span>
+            </div>
+            <div class="readmore_btn"><button>Read More</button></div>
+            <div class="blog_profile">
+              <div class="blog_admin">
+                <img src="./assets/Biography-of-Sundar-Pichai.jpg" alt="sundar">
+                <span>Admin</span>
+              </div>
+              <div class="calender">
+                <i class="fa fa-light fa-calendar"></i>
+                <span>5/11/2023</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/blogmain.jpg" alt="mango" />
+            <div class="blog_name">Blog</div>
+            <div class="blog_title">
+                Blog Title 1
+            </div>
+            <div class="blog_disc">
+                <span>simply dummy text of the</span><br> <span>printing and typesetting industry.</span>
+            </div>
+            <div class="readmore_btn"><button>Read More</button></div>
+            <div class="blog_profile">
+              <div class="blog_admin">
+                <img src="./assets/Biography-of-Sundar-Pichai.jpg" alt="sundar">
+                <span>Admin</span>
+              </div>
+              <div class="calender">
+                <i class="fa fa-light fa-calendar"></i>
+                <span>5/11/2023</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/blogmain.jpg" alt="mango" />
+            <div class="blog_name">Blog</div>
+            <div class="blog_title">
+                Blog Title 1
+            </div>
+            <div class="blog_disc">
+                <span>simply dummy text of the</span><br> <span>printing and typesetting industry.</span>
+            </div>
+            <div class="readmore_btn"><button>Read More</button></div>
+            <div class="blog_profile">
+              <div class="blog_admin">
+                <img src="./assets/Biography-of-Sundar-Pichai.jpg" alt="sundar">
+                <span>Admin</span>
+              </div>
+              <div class="calender">
+                <i class="fa fa-light fa-calendar"></i>
+                <span>5/11/2023</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="viewmore_btn">
+        <button>View More <i class="fa fa-light fa-arrow-right"></i></button>
+      </div>
+    </section>
+    <footer class="footer_container">
+      <div class="footer_top">
+        <div class="footer_top_content">Free Home Delivery</div>
+        <div class="footer_top_content">Secure Payment</div>
+        <div class="footer_top_content">24X7 Onine Support</div>
+      </div>
+      <div class="footer_start">
+        <div class="fssai">
+          <img src="./assets/fssai.png" alt="fssai" />
+          <p>1234567890</p>
+        </div>
+        <div class="categories">
+          <ul>
+          <li>Categories</li>
+          <li>Fresh Fruits</li>
+          <li>Dry Fruits</li>
+          <li>Combo</li>
+          <li>Gifting</li>
+          <li>Exotic Fruits</li>
+          <li>Seasonal Fruits</li>
+          <li>Deal of the Day</li>
+        </ul>
+        </div>
+        <div class="quick_links">
+          <ul>
+          <li>Quick Links</li>
+          <li>About Us</li>
+          <li>Contact us</li>
+          <li>Blog</li>
+          <li>My Account</li>
+          <li>Privacy Policy</li>
+          <li>Disclaimer</li>
+          <li>Terms and Conditions</li>
+          <li>Instruction</li>
+          <li>Return Policy</li>
+          <li>FAQ</li>
+        </ul>
+        </div>
+        <div class="contact">
+          <ul>
+          <li>Contact Us</li>
+          <li>Let's here all about it! Get it touch</li>
+          <li>
+            <i class="fa fa-sharp fa-light fa-house"></i
+            ><span>No 37 Adams Corner 3rd </span><br /><span
+              >Floor coles Road Frazer town</span
+            ><br />
+            <span>Bangalore 560005 .</span>
+          </li>
+          <li><i class="fa fa-headset"></i>+91 96110 00022</li>
+          <li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div class="footer_mid">
+        <p>CITIES WE SERVE</p>
+        <div class="cities">
+          <span>Bengaluru</span>
+          <span>Chennai</span>
+          <span>Hyderbad</span>
+        </div>
+      </div>
+      <div class="footer_mid_m1">
+        <div class="description">
+          <p>We Will Sell Only The Meat That We Would Eat Ourselves.</p>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.Nemo
+            enim ipsam voluptatem quia voluptas sit aspernatur aut
+          </p>
+        </div>
+        <div class="description">
+          <p>We Will Sell Only The Meat That We Would Eat Ourselves.</p>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.Nemo
+            enim ipsam voluptatem quia voluptas sit aspernatur aut
+          </p>
+        </div>
+        <div class="description">
+          <p>We Will Sell Only The Meat That We Would Eat Ourselves.</p>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.Nemo
+            enim ipsam voluptatem quia voluptas sit aspernatur aut
+          </p>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <p>© Copyright 2021 Fruit Boxes.Fruit Boxes.in.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
